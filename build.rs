@@ -17,11 +17,16 @@ fn main() {
         "SimpleLR",
         "Labels",
         "FHIRPath",
+        "PlSqlLexer",
+        "PlSqlParser",
     ];
     let additional_args = vec![
         Some("-visitor"),
         Some("-visitor"),
         Some("-visitor"),
+        None,
+        None,
+        None,
         None,
         None,
         None,

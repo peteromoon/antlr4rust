@@ -62,6 +62,9 @@ mod gen {
     mod visitorcalcparser;
     mod visitorcalcvisitor;
     mod xmllexer;
+    mod plsqllexer;
+    mod plsqlparser;
+    mod plsqlparserlistener;
 
     fn test_static<T: 'static>(_arg: T) {}
 
